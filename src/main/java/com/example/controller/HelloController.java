@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String hello(){
-        System.out.println("666666666666666666666");
-        return "hello world";
+        System.out.println("从git上拉取的项目");
+        return "git上拉去的项目66666666666";
     }
 }
